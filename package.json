@@ -4,6 +4,9 @@
 	"private": true,
 	"license": "GPL-3.0-only",
 	"packageManager": "yarn@1.22.19",
+	"engines": {
+		"node": "20.12.2"
+	},
 	"scripts": {
 		"prepare": "husky",
 		"dev": "vite dev --open",
