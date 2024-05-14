@@ -2,4 +2,10 @@
 	import '../app.css';
 </script>
 
-<slot />
+<svelte:head>
+	<title>The Website.</title>
+</svelte:head>
+
+<body>
+	<slot />
+</body>
