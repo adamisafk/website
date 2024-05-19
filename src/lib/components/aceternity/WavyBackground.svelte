@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { cn } from '$lib/utils/cn';
+	import { cn } from '$lib/utils';
 	import { createNoise3D } from 'simplex-noise';
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';

@@ -22,8 +22,8 @@
 				<ClickableMenuItem {active} item="Home" href="/" />
 				<MenuItem {active} item="About Me">
 					<div class="flex flex-col space-y-4 text-sm">
-						<HoveredLink href="/background">Background</HoveredLink>
-						<HoveredLink href="/whatdo">What I Do</HoveredLink>
+						<HoveredLink href="/about/background">Background</HoveredLink>
+						<HoveredLink href="/about/whatdo">What I Do</HoveredLink>
 					</div>
 				</MenuItem>
 				<MenuItem {active} item="Portfolio">
