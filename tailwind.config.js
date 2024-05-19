@@ -6,6 +6,7 @@ export default {
 	},
 	plugins: [require('daisyui')],
 	daisyui: {
-		themes: ['garden']
-	}
+		themes: ['black']
+	},
+	darkMode: 'class'
 };
